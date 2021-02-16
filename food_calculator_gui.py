@@ -10,8 +10,8 @@ class FoodCalculatorGUI:
         self.root.wm_title('Dog Food Calculator')
 
         self.food_calculator = None
-        self.dog_weight = self.add_entry_selector_widget(root, 'Enter dog\'s weight', "40")
-        self.cal_per_cup_food = self.add_entry_selector_widget(root, 'Enter calories per cup of food', "330")
+        self.dog_weight = self.add_entry_selector_widget(root, 'Enter dog\'s weight', "55")
+        self.cal_per_cup_food = self.add_entry_selector_widget(root, 'Enter calories per cup of food', "417")
         self.cal_per_treat = self.add_entry_selector_widget(root, 'Enter calories per training treat', "1")
         self.life_stage = self.add_drop_down_widget(root, "Select life stage", life_stage_RER_factor_dict.keys())
         self.add_button_widget(root, "Calculate", "lightblue", self.calculate_food)
